@@ -132,7 +132,7 @@ class $4b5f17410991c2aa$export$b30fd0d13a56e57e {
         this.onUpdateMovie = onUpdateMovie;
         this.containerNode = document.querySelector(".movies__Container");
         this.inputTitleNode = document.querySelector(".js-input__title");
-        this.inputTitleNode.addEventListener("change", ()=>this._changeTitleHandler());
+        this.inputTitleNode.addEventListener("input", ()=>this._changeTitleHandler());
         this.addMovieBtnNode = document.querySelector(".js-input__btn");
         this.addMovieBtnNode.addEventListener("click", ()=>this._addMovieHandler());
     }
